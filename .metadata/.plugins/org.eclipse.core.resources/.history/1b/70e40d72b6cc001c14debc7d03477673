@@ -1,0 +1,13 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+public class UsuarioList {
+	
+public String source;
+	
+	public String target;
+	
+	public int distance;
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+public class UsuarioList {
+	
+	private ArrayList<UsuarioList> nomeDate;
+	
+	public Object listaDeDados(String source, String target, int distance) {
+		return listaDeDados(source, target, distance);
+	}
+	
+	public void lista() {
+		nomeDate.addAll("Casa");
+	}
+
+}

@@ -1,0 +1,21 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+import antlr.collections.List;
+
+public class UsuarioList extends Usuario {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private List nomeDate;
+	
+	public Object listaDeDados(String source, String target, int distance) {
+		return listaDeDados(source, target, distance);
+	}
+	
+	public void lista() {
+		nomeDate.add(listaDeDados(null, null, 0));
+	}
+
+}

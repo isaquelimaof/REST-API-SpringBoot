@@ -1,0 +1,26 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+import antlr.collections.List;
+
+@Entity
+public class UsuarioList implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private List nomeDate;
+	
+	public Object listaDeDados(String source, String target, int distance) {
+		return listaDeDados(source, target, distance);
+	}
+	
+	public void lista() {
+		nomeDate.add(listaDeDados(null, null, 0));
+	}
+
+}

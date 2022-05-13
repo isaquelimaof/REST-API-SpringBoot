@@ -1,0 +1,13 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+import java.util.List;
+
+public class UsuarioList {
+	
+	private List<UsuarioList> nomeDate;
+	
+	public void listaDeDados(String Source, String target, int distance) {
+		
+	}
+
+}

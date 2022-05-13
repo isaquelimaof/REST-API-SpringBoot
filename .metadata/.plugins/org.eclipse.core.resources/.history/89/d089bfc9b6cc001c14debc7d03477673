@@ -1,0 +1,39 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+public class UsuarioList {
+	
+public String source;
+	
+	public String target;
+	
+	public int distance;
+	
+
+
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	public String getTarget() {
+		return target;
+	}
+
+	public void setTarget(String target) {
+		this.target = target;
+	}
+
+	public int getDistance() {
+		return distance;
+	}
+
+	public void setDistance(int distance) {
+		this.distance = distance;
+	}
+	
+	
+
+}

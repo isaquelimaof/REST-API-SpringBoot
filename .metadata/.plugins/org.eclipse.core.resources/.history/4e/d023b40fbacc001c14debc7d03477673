@@ -1,0 +1,28 @@
+package br.com.springboot.curso_jdev_treinamento.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+import antlr.collections.List;
+
+@Entity
+public class UsuarioList implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String nomeDate;
+	public String getNomeDate() {
+		return nomeDate;
+	}
+	public void setNomeDate(String nomeDate) {
+		this.nomeDate = nomeDate;
+	}
+	
+	
+	
+	
+
+}

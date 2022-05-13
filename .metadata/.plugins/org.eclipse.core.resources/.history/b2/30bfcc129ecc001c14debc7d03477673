@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+h3 {
+	text-align: center;
+	
+}
+.mb-1{
+	text-align: center;
+}
+.mb-2{
+	text-align: center;
+}
+.mb-3{
+	text-align: center;
+}
+
+.class .btn {
+	text-align: center;
+}
+h3 {
+	border-style: ridge;
+	border-bottom-color: blue;
+	border-color: green;
+	}
